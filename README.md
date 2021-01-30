@@ -9,11 +9,11 @@ When I need to buy tickets, I often ask myself "what websites I will use to buy 
 3. Events most people don’t know but you may like.
 Based on above reasons, I decide to make a personalization based recommendation system for event search.
 
-#Tech Stack
+# Tech Stack
 +HTML/CSS/JavaScript/JAVA
 +MYSQL/MongoDB
 
-#Recommendatino Algorithm(cotent-based)
+# Recommendatino Algorithm(cotent-based)
 In this project, I recommend events based on categories that the user has favorited. By knowing the category of the item the user favorited, I recommend some events belong to this category nearby this user. Concrete steps are as follow.
 1. Fetch all the events (ids) this user has visited.
 2. Given all these events, fetch the categories of these events.
@@ -21,20 +21,20 @@ In this project, I recommend events based on categories that the user has favori
 4. Filter events that this user has visited.
 5. Sort the recommendation list on ascending order of distance between recommended events's locations and user's location.
 
-#Requirement 
+# Requirement 
 + Apache Tomat v9.0
 + Eclipse JEE
 + JAVA 8
 + MySQL
 
-#Installation
+# Installation
 Clone the GitHub repository and then import Event-Search-Recommendation-Engine.war into your eclipse.
 To import WAR file into Eclipse JEE, click on File -> Import. Select Web -> WAR File.
 + WAR file: Provide the full pathname of the WAR file on your computer.
 + Web project: This will pre-fill based on the WAR file name. You can change it, which is handy if you’re experimenting.
 + Target runtime: You will need to select “Apache Tomcat 9.0”. The first time you import a WAR file (or create new “Dynamic Web Project”) you will need to declare the new runtime environment. Do this by clicking on “New” and filling in the form as follows:
-++ Apache Tomat v9.0, then click “Next”
-++ Provide the Tomcat installation directory by giving the full pathname of the directory containing your unzipped version of Tomcat 9.0.
-++ Click “Finished”.
+  - Apache Tomat v9.0, then click “Next”
+  - Provide the Tomcat installation directory by giving the full pathname of the directory containing your unzipped version of Tomcat 9.0.
+  - Click “Finished”.
 + Click "Finished".
 Run the imported project by “right-clicking” on the new project and selecting “Run As -> Run on Server.
