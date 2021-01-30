@@ -10,8 +10,8 @@ When I need to buy tickets, I often ask myself "what websites I will use to buy 
 Based on above reasons, I decide to make a personalization based recommendation system for event search.
 
 # Tech Stack
-+HTML/CSS/JavaScript/JAVA
-+MYSQL/MongoDB
++ HTML/CSS/JavaScript/JAVA
++ MYSQL/MongoDB
 
 # Recommendatino Algorithm(cotent-based)
 In this project, I recommend events based on categories that the user has favorited. By knowing the category of the item the user favorited, I recommend some events belong to this category nearby this user. Concrete steps are as follow.
