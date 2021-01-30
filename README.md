@@ -39,6 +39,8 @@ To import WAR file into Eclipse JEE, click on File -> Import. Select Web -> WAR 
 + Click "Finished".
 Run the imported project by “right-clicking” on the new project and selecting “Run As -> Run on Server.
 
+# Screenshots
+
 # Usage/Quick Start
 Login using demo account and password(1111/2222), like an event, enjoy!
 
