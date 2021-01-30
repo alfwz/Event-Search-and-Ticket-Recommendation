@@ -38,3 +38,18 @@ To import WAR file into Eclipse JEE, click on File -> Import. Select Web -> WAR 
   - Click “Finished”.
 + Click "Finished".
 Run the imported project by “right-clicking” on the new project and selecting “Run As -> Run on Server.
+
+# Usage/Quick Start
+Login using demo account and password(1111/2222), like an event, enjoy!
+
+# Known Bugs
++ When change to mongoDB as backend database, the unfavorite function doesn't work, wait to be fixed.
++ If I log in as user A, if the session has not time out, I can use other users(e.g. user B) to visit the content of user A, not safe. 
+If you find any more bugs, feel free to contact alfwzhang@gmail.com
+
+# Todo list
++ The registration system.
++ Current project's frontend is built by pure JavaScript without any framework, I will try to refactor it by AugularJS or React in the future.
+
+# Deployment
+Deployment Environment: Amazon EC2
